@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-04T11:01:28.689Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="qiSSF5rbIaZbMP3sk7uL" version="12.1.9" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-04T11:14:52.262Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="sWueEyiZbHWbVlRNiI7y" version="12.1.9" type="github" pages="1">
   <diagram id="jeqWohrpUIGixHo87zAg" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -15,8 +15,7 @@
         <mxCell id="xQxHP2P5u9kXVPa1MEYz-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="xQxHP2P5u9kXVPa1MEYz-1" target="xQxHP2P5u9kXVPa1MEYz-8">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="250" y="250"/>
-              <mxPoint x="250" y="385"/>
+              <mxPoint x="110" y="385"/>
             </Array>
           </mxGeometry>
         </mxCell>
@@ -35,13 +34,47 @@
           <mxGeometry x="400" y="220" width="230" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="xQxHP2P5u9kXVPa1MEYz-6" value="ZKPaths.makePath(path, lockName)&lt;br&gt;得到的zk路径为：/locks/lock-" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="690" y="140" width="240" height="60" as="geometry"/>
+          <mxGeometry x="740" y="220" width="240" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xQxHP2P5u9kXVPa1MEYz-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xQxHP2P5u9kXVPa1MEYz-8" target="xQxHP2P5u9kXVPa1MEYz-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="370"/>
+              <mxPoint x="640" y="370"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xQxHP2P5u9kXVPa1MEYz-13" value="尝试获取锁" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="xQxHP2P5u9kXVPa1MEYz-12">
+          <mxGeometry x="-0.0138" y="-18" relative="1" as="geometry">
+            <mxPoint x="-18" y="-17" as="offset"/>
+          </mxGeometry>
         </mxCell>
         <mxCell id="xQxHP2P5u9kXVPa1MEYz-8" value="acquire()&lt;br&gt;获取锁" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="413" y="340" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="xQxHP2P5u9kXVPa1MEYz-11" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="350" width="120" height="60" as="geometry"/>
+        <mxCell id="xQxHP2P5u9kXVPa1MEYz-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.51;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xQxHP2P5u9kXVPa1MEYz-11" target="xQxHP2P5u9kXVPa1MEYz-14">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xQxHP2P5u9kXVPa1MEYz-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="xQxHP2P5u9kXVPa1MEYz-11" target="xQxHP2P5u9kXVPa1MEYz-17">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xQxHP2P5u9kXVPa1MEYz-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xQxHP2P5u9kXVPa1MEYz-11" target="xQxHP2P5u9kXVPa1MEYz-19">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xQxHP2P5u9kXVPa1MEYz-11" value="LockInternals.attemptLock()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="340" width="190" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xQxHP2P5u9kXVPa1MEYz-14" value="ourPath = client.create().creatingParentsIfNeeded().withProtection().withMode(CreateMode.EPHEMERAL_SEQUENTIAL).forPath(path);&lt;br&gt;&lt;br&gt;/locks/_c_3a7df3b0-8470-46ba-a955-26a08d35f36f-lock-0000000000" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="510" width="700" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="xQxHP2P5u9kXVPa1MEYz-16" value="第一步：&lt;br&gt;核心逻辑：&lt;br&gt;在zk中创建临时有序节点" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="845" y="400" width="200" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="xQxHP2P5u9kXVPa1MEYz-17" value="第二步：&lt;br&gt;判断是否上锁：&lt;br&gt;1. 获取zk的/locks下所有子节点，&lt;br&gt;2. 如果当前节点的是0，也就是第一个，则，断言有空闲锁，可以上" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="400" width="210" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="xQxHP2P5u9kXVPa1MEYz-19" value="第三步：&lt;br&gt;上锁成功后，放入ConcurrentMap&amp;lt;Thread, LockData&amp;gt; 中" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="240" width="220" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
