@@ -1,1 +1,49 @@
-<mxfile host="www.draw.io" modified="2019-11-04T10:50:00.191Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" version="12.1.9" etag="488zk8408P_ms4FDz57i" type="github"><diagram id="jeqWohrpUIGixHo87zAg">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-11-04T11:01:28.689Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="qiSSF5rbIaZbMP3sk7uL" version="12.1.9" type="github" pages="1">
+  <diagram id="jeqWohrpUIGixHo87zAg" name="第 1 页">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="xQxHP2P5u9kXVPa1MEYz-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xQxHP2P5u9kXVPa1MEYz-1" target="xQxHP2P5u9kXVPa1MEYz-2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xQxHP2P5u9kXVPa1MEYz-4" value="初始化" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="xQxHP2P5u9kXVPa1MEYz-3">
+          <mxGeometry x="-0.1429" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xQxHP2P5u9kXVPa1MEYz-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="xQxHP2P5u9kXVPa1MEYz-1" target="xQxHP2P5u9kXVPa1MEYz-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="250"/>
+              <mxPoint x="250" y="385"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xQxHP2P5u9kXVPa1MEYz-10" value="获取锁" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="xQxHP2P5u9kXVPa1MEYz-9">
+          <mxGeometry x="-0.1285" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xQxHP2P5u9kXVPa1MEYz-1" value="InterProcessMutex" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="150" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xQxHP2P5u9kXVPa1MEYz-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xQxHP2P5u9kXVPa1MEYz-2" target="xQxHP2P5u9kXVPa1MEYz-6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xQxHP2P5u9kXVPa1MEYz-2" value="new InterProcessMutex(client, &quot;/locks&quot;);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="220" width="230" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xQxHP2P5u9kXVPa1MEYz-6" value="ZKPaths.makePath(path, lockName)&lt;br&gt;得到的zk路径为：/locks/lock-" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="140" width="240" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xQxHP2P5u9kXVPa1MEYz-8" value="acquire()&lt;br&gt;获取锁" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="413" y="340" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xQxHP2P5u9kXVPa1MEYz-11" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="350" width="120" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
