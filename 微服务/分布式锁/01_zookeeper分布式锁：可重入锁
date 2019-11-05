@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-05T01:50:56.702Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="6oH-yK0kpkVkBKKYntTN" version="12.1.9" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-05T01:58:20.206Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="XPeu7d63DkLEDlVwb9PM" version="12.1.9" type="github" pages="1">
   <diagram id="jeqWohrpUIGixHo87zAg" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,6 +34,31 @@
         <mxCell id="xQxHP2P5u9kXVPa1MEYz-26" value="释放锁" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="xQxHP2P5u9kXVPa1MEYz-25">
           <mxGeometry x="0.1125" y="93" relative="1" as="geometry">
             <mxPoint x="93" y="95" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xQxHP2P5u9kXVPa1MEYz-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xQxHP2P5u9kXVPa1MEYz-1" target="xQxHP2P5u9kXVPa1MEYz-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="50" y="920"/>
+              <mxPoint x="230" y="920"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xQxHP2P5u9kXVPa1MEYz-42" value="重入锁" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="xQxHP2P5u9kXVPa1MEYz-38">
+          <mxGeometry x="0.6566" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xQxHP2P5u9kXVPa1MEYz-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xQxHP2P5u9kXVPa1MEYz-1" target="xQxHP2P5u9kXVPa1MEYz-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="40" y="1050"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xQxHP2P5u9kXVPa1MEYz-51" value="重入锁的释放锁" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="xQxHP2P5u9kXVPa1MEYz-50">
+          <mxGeometry x="0.375" y="148" relative="1" as="geometry">
+            <mxPoint x="148" y="152" as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="xQxHP2P5u9kXVPa1MEYz-1" value="InterProcessMutex" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -122,6 +147,39 @@
         </mxCell>
         <mxCell id="xQxHP2P5u9kXVPa1MEYz-34" value="第二步：如果map中有当前线程的锁，也就是对应的zk的路径" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="570" y="820" width="370" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="xQxHP2P5u9kXVPa1MEYz-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xQxHP2P5u9kXVPa1MEYz-37" target="xQxHP2P5u9kXVPa1MEYz-45">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xQxHP2P5u9kXVPa1MEYz-37" value="LockData&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; lockData = threadData.get(currentThread);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="890" width="217" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xQxHP2P5u9kXVPa1MEYz-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xQxHP2P5u9kXVPa1MEYz-40" target="xQxHP2P5u9kXVPa1MEYz-37">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xQxHP2P5u9kXVPa1MEYz-40" value="acquire()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="890" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xQxHP2P5u9kXVPa1MEYz-44" value="如果从map中获取的lockData不为空，说明锁重入了。&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="970" width="320" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="xQxHP2P5u9kXVPa1MEYz-45" value="lockData.lockCount.incrementAndGet()" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="955" y="885" width="230" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="xQxHP2P5u9kXVPa1MEYz-47" value="将map中lockCount值+1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="975" width="150" height="10" as="geometry"/>
+        </mxCell>
+        <mxCell id="xQxHP2P5u9kXVPa1MEYz-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xQxHP2P5u9kXVPa1MEYz-49" target="xQxHP2P5u9kXVPa1MEYz-52">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xQxHP2P5u9kXVPa1MEYz-49" value="&lt;span style=&quot;white-space: normal;&quot;&gt;release()&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1020" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xQxHP2P5u9kXVPa1MEYz-52" value="lockData.lockCount.decrementAndGet()" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="615" y="1020" width="230" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xQxHP2P5u9kXVPa1MEYz-54" value="将map中lockCount值 - 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="635" y="1090" width="150" height="10" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
