@@ -1,1 +1,61 @@
-<mxfile host="www.draw.io" modified="2019-11-05T06:51:42.707Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" version="12.2.0" etag="n_eCFm5EJzxRcY0ZBOE-" type="github" pages="1"><diagram id="w6axmRp4On2d23Y_mrbi">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-11-05T07:04:10.440Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="z7soT6oK0h3QEYJYVsiA" version="12.2.0" type="github" pages="1">
+  <diagram id="w6axmRp4On2d23Y_mrbi" name="第 1 页">
+    <mxGraphModel dx="1422" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="bw5vYdgnodiC2QCVHDXd-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bw5vYdgnodiC2QCVHDXd-1" target="bw5vYdgnodiC2QCVHDXd-2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="bw5vYdgnodiC2QCVHDXd-1" value="&lt;div&gt;InterProcessReadWriteLock lock = new InterProcessReadWriteLock(client, &quot;/locks6&quot;);&lt;/div&gt;&lt;div&gt;lock.readLock().acquire();&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="70" y="60" width="480" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="bw5vYdgnodiC2QCVHDXd-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bw5vYdgnodiC2QCVHDXd-2" target="bw5vYdgnodiC2QCVHDXd-3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="bw5vYdgnodiC2QCVHDXd-2" value="internalLockLoop.internalLockLoop()" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="210" y="150" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="bw5vYdgnodiC2QCVHDXd-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.458;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bw5vYdgnodiC2QCVHDXd-3" target="bw5vYdgnodiC2QCVHDXd-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="390" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bw5vYdgnodiC2QCVHDXd-12" value="__READ__" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="bw5vYdgnodiC2QCVHDXd-7">
+          <mxGeometry x="0.1525" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bw5vYdgnodiC2QCVHDXd-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="bw5vYdgnodiC2QCVHDXd-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="320" as="sourcePoint"/>
+            <Array as="points">
+              <mxPoint x="310" y="360"/>
+              <mxPoint x="620" y="360"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bw5vYdgnodiC2QCVHDXd-17" value="__WRIT__" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="bw5vYdgnodiC2QCVHDXd-14">
+          <mxGeometry x="0.1792" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bw5vYdgnodiC2QCVHDXd-3" value="InterProcessReadWriterLock.readLockPredicate()" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="175" y="260" width="270" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="bw5vYdgnodiC2QCVHDXd-6" value="boolean getsTheLock = ourIndex &amp;lt; firstWriteIndex;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="10" y="400" width="310" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="bw5vYdgnodiC2QCVHDXd-8" value="ourIndex是zk的读锁的ChildrenNode数量 &amp;lt; firstWriteIndex=Integer.MaxValue" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="460" width="200" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="bw5vYdgnodiC2QCVHDXd-13" value="firstWriteIndex = Math.min(index, firstWriteIndex);&lt;br&gt;&lt;br&gt;boolean getsTheLock = ourIndex &amp;lt; firstWriteIndex;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="480" y="395" width="280" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="bw5vYdgnodiC2QCVHDXd-16" value="如果zk ChildrenNode大于0，加锁失败。&lt;br&gt;即写锁是互斥的" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="470" width="210" height="25" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
