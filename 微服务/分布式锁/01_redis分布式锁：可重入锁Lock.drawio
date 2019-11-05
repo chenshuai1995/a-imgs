@@ -1,1 +1,34 @@
-<mxfile host="www.draw.io" modified="2019-11-05T08:50:40.240Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" version="12.2.0" etag="EI9CZBwFIVsd8P0olQaU" type="github" pages="1"><diagram id="KCdoyD0Rbv-wsVa_FZfM">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-11-05T09:03:54.137Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="bSCG3OVkQ-yT0a0YcrDB" version="12.2.0" type="github" pages="1">
+  <diagram id="KCdoyD0Rbv-wsVa_FZfM" name="第 1 页">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="EdpGuVGGY4_nnbL_nJ0O-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EdpGuVGGY4_nnbL_nJ0O-1" target="EdpGuVGGY4_nnbL_nJ0O-2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="EdpGuVGGY4_nnbL_nJ0O-1" value="RedissionLock.lock()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="40" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="EdpGuVGGY4_nnbL_nJ0O-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EdpGuVGGY4_nnbL_nJ0O-2" target="EdpGuVGGY4_nnbL_nJ0O-3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="EdpGuVGGY4_nnbL_nJ0O-2" value="lua脚本" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="150" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="EdpGuVGGY4_nnbL_nJ0O-3" value="&lt;div&gt;&quot;if (redis.call(&#39;exists&#39;, KEYS[1]) == 0) then &quot; +&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;redis.call(&#39;hset&#39;, KEYS[1], ARGV[2], 1); &quot; +&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;redis.call(&#39;pexpire&#39;, KEYS[1], ARGV[1]); &quot; +&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;return nil; &quot; +&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;end; &quot; +&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;if (redis.call(&#39;hexists&#39;, KEYS[1], ARGV[2]) == 1) then &quot; +&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;redis.call(&#39;hincrby&#39;, KEYS[1], ARGV[2], 1); &quot; +&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;redis.call(&#39;pexpire&#39;, KEYS[1], ARGV[1]); &quot; +&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;return nil; &quot; +&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;end; &quot; +&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;return redis.call(&#39;pttl&#39;, KEYS[1]);&quot;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="70" y="280" width="380" height="190" as="geometry"/>
+        </mxCell>
+        <mxCell id="EdpGuVGGY4_nnbL_nJ0O-6" value="keys[1]=anyLock&lt;br&gt;argv[1]=30000(internalLockLeaseTime)&lt;br&gt;argv[2]=UUID_01:thread_01" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="540" y="340" width="240" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="EdpGuVGGY4_nnbL_nJ0O-7" value="exists anyLock&lt;br&gt;hset anyLock UUID_01:thread_01 1&lt;br&gt;pexpire anyLock 30000" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="130" y="500" width="260" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="EdpGuVGGY4_nnbL_nJ0O-8" value="核心逻辑全在lua脚本里" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="175" width="160" height="10" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
