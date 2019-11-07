@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-07T06:49:46.272Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="7z7yVBAVBszKiKCMK5Tt" version="12.2.2" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-07T06:50:34.112Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="e_098PfHO_ZkNh4k-2E5" version="12.2.2" type="github" pages="1">
   <diagram id="tJBsUqAIiWFZbTOXgKHA" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,7 +28,7 @@
         <mxCell id="SvSKkEP0Ot1hwkH4o2vd-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SvSKkEP0Ot1hwkH4o2vd-7" target="SvSKkEP0Ot1hwkH4o2vd-9">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="SvSKkEP0Ot1hwkH4o2vd-7" value="TransactionAspectSupport.invokeWithinTransaction()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="SvSKkEP0Ot1hwkH4o2vd-7" value="TransactionAspectSupport.invokeWithinTransaction()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="125" y="480" width="330" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="SvSKkEP0Ot1hwkH4o2vd-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SvSKkEP0Ot1hwkH4o2vd-9" target="SvSKkEP0Ot1hwkH4o2vd-10">
@@ -57,16 +57,16 @@
         <mxCell id="SvSKkEP0Ot1hwkH4o2vd-25" value="调用父类的方法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="303" y="455" width="110" height="10" as="geometry"/>
         </mxCell>
-        <mxCell id="SvSKkEP0Ot1hwkH4o2vd-26" value="创建事务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="SvSKkEP0Ot1hwkH4o2vd-26" value="1：创建事务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="310" y="545" width="80" height="15" as="geometry"/>
         </mxCell>
-        <mxCell id="SvSKkEP0Ot1hwkH4o2vd-27" value="执行代理的事务方法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="SvSKkEP0Ot1hwkH4o2vd-27" value="2：执行代理的事务方法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="286" y="650" width="127" height="41" as="geometry"/>
         </mxCell>
-        <mxCell id="SvSKkEP0Ot1hwkH4o2vd-28" value="事务方法执行时，抛出异常" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="SvSKkEP0Ot1hwkH4o2vd-28" value="3：事务方法执行时，抛出异常" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="290" y="790" width="160" height="17" as="geometry"/>
         </mxCell>
-        <mxCell id="SvSKkEP0Ot1hwkH4o2vd-29" value="提交事务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="SvSKkEP0Ot1hwkH4o2vd-29" value="4：提交事务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="310" y="914" width="70" height="16" as="geometry"/>
         </mxCell>
       </root>
