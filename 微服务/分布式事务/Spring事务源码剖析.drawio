@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-07T06:50:34.112Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="e_098PfHO_ZkNh4k-2E5" version="12.2.2" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-07T07:11:42.073Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="VChVbGYPTYwrUGcD_3mO" version="12.2.2" type="github" pages="1">
   <diagram id="tJBsUqAIiWFZbTOXgKHA" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -32,6 +32,9 @@
           <mxGeometry x="125" y="480" width="330" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="SvSKkEP0Ot1hwkH4o2vd-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SvSKkEP0Ot1hwkH4o2vd-9" target="SvSKkEP0Ot1hwkH4o2vd-10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="SvSKkEP0Ot1hwkH4o2vd-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SvSKkEP0Ot1hwkH4o2vd-9" target="SvSKkEP0Ot1hwkH4o2vd-31">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="SvSKkEP0Ot1hwkH4o2vd-9" value="createTransactionIfNecessary()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -68,6 +71,21 @@
         </mxCell>
         <mxCell id="SvSKkEP0Ot1hwkH4o2vd-29" value="4：提交事务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="310" y="914" width="70" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="SvSKkEP0Ot1hwkH4o2vd-31" value="AbstractPlatformTransactionManager&lt;br&gt;&lt;br&gt;tm.getTransaction()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="570" width="220" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="SvSKkEP0Ot1hwkH4o2vd-32" value="doGetTransaction()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="455" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="SvSKkEP0Ot1hwkH4o2vd-33" value="doBegin()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="590" width="123" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="SvSKkEP0Ot1hwkH4o2vd-34" value="this.getJpaDialect().beginTransaction" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="580" width="220" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="SvSKkEP0Ot1hwkH4o2vd-35" value="这里底层是通过HibernateJpa来调用的开启事务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="515" width="100" height="35" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
