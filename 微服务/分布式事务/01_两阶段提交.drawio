@@ -1,1 +1,63 @@
-<mxfile host="www.draw.io" modified="2019-11-07T08:42:52.456Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" version="12.2.2" etag="ZpDiZVFEWQlUbgxTeEfr" type="github" pages="1"><diagram id="h31gupBpUYvnmxv6ffpr">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-11-07T08:50:56.820Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="4Oxe_LLd06l6xB8VWmMU" version="12.2.2" type="github" pages="1">
+  <diagram id="h31gupBpUYvnmxv6ffpr" name="第 1 页">
+    <mxGraphModel dx="1422" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="ctN48Ia2UYxUipkmRCTK-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ctN48Ia2UYxUipkmRCTK-1" target="ctN48Ia2UYxUipkmRCTK-2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="ctN48Ia2UYxUipkmRCTK-4" value="事务" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="ctN48Ia2UYxUipkmRCTK-3">
+          <mxGeometry x="-0.2444" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ctN48Ia2UYxUipkmRCTK-1" value="AP&lt;br&gt;（Application，应用系统）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="210" width="150" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="ctN48Ia2UYxUipkmRCTK-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ctN48Ia2UYxUipkmRCTK-2" target="ctN48Ia2UYxUipkmRCTK-5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="ctN48Ia2UYxUipkmRCTK-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.029;entryY=0.594;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ctN48Ia2UYxUipkmRCTK-2" target="ctN48Ia2UYxUipkmRCTK-7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="ctN48Ia2UYxUipkmRCTK-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.007;entryY=0.613;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ctN48Ia2UYxUipkmRCTK-2" target="ctN48Ia2UYxUipkmRCTK-6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="ctN48Ia2UYxUipkmRCTK-2" value="TM&lt;br&gt;（Transaction Manager，事务管理器）&lt;br&gt;就是一个第三方组件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="202.5" width="150" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="ctN48Ia2UYxUipkmRCTK-5" value="RM&lt;br&gt;（Resource Manager，资源管理器）&lt;br&gt;数据库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="70" width="140" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="ctN48Ia2UYxUipkmRCTK-6" value="RM&lt;br&gt;（Resource Manager，资源管理器）&lt;br&gt;数据库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="310" width="140" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="ctN48Ia2UYxUipkmRCTK-7" value="RM&lt;br&gt;（Resource Manager，资源管理器）&lt;br&gt;数据库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="187.5" width="140" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="ctN48Ia2UYxUipkmRCTK-11" value="prepare准备阶段：&lt;br&gt;发送prepare消息，完成SQL语句，但是没有提交" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="80" width="170" height="10" as="geometry"/>
+        </mxCell>
+        <mxCell id="ctN48Ia2UYxUipkmRCTK-12" value="prepare准备阶段：&lt;br&gt;发送prepare消息，完成SQL语句，但是没有提交" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="205" width="170" height="10" as="geometry"/>
+        </mxCell>
+        <mxCell id="ctN48Ia2UYxUipkmRCTK-14" value="prepare准备阶段：&lt;br&gt;发送prepare消息，完成SQL语句，但是没有提交" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="310" width="170" height="10" as="geometry"/>
+        </mxCell>
+        <mxCell id="ctN48Ia2UYxUipkmRCTK-17" value="接口规范：&lt;br&gt;XA接口规范（分布式事务）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="280" width="150" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="ctN48Ia2UYxUipkmRCTK-19" value="commit提交阶段：&lt;br&gt;如果准备阶段有一个执行失败了，通知所有库，进行回滚。如果所有库回滚成功，则分布式事务回滚" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="330" width="260" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ctN48Ia2UYxUipkmRCTK-20" value="commit提交阶段：&lt;br&gt;如果准备阶段都执行成功，通知所有库，提交。如果所有库都提交成功了，则分布式事务成功" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="400" width="260" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ctN48Ia2UYxUipkmRCTK-21" value="CRM&lt;br&gt;（Comminucation Resource Manager，通信资源管理器）&lt;br&gt;一般是消息中间件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="80" width="160" height="70" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
