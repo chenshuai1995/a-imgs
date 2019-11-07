@@ -1,1 +1,68 @@
-<mxfile host="www.draw.io" modified="2019-11-07T03:35:32.116Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" version="12.2.2" etag="af1FEK0TGOZVsctY4TKs" type="github"><diagram id="tJBsUqAIiWFZbTOXgKHA">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-11-07T06:44:30.744Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="wkDL0lpXstZuX9MXlMtL" version="12.2.2" type="github" pages="1">
+  <diagram id="tJBsUqAIiWFZbTOXgKHA" name="第 1 页">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="SvSKkEP0Ot1hwkH4o2vd-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SvSKkEP0Ot1hwkH4o2vd-1" target="SvSKkEP0Ot1hwkH4o2vd-2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="SvSKkEP0Ot1hwkH4o2vd-1" value="@Transactional" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="110" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="SvSKkEP0Ot1hwkH4o2vd-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SvSKkEP0Ot1hwkH4o2vd-2" target="SvSKkEP0Ot1hwkH4o2vd-5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="SvSKkEP0Ot1hwkH4o2vd-2" value="org.springframework.transaction.interceptor.&lt;br&gt;&lt;br&gt;TransactionInterceptor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="260" width="270" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="SvSKkEP0Ot1hwkH4o2vd-3" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;open sans&amp;#34; , &amp;#34;clear sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px ; white-space: pre-wrap ; background-color: rgb(255 , 255 , 255)&quot;&gt;spring-tx-4.3.13.RELEASE.jar&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="190" width="260" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="SvSKkEP0Ot1hwkH4o2vd-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SvSKkEP0Ot1hwkH4o2vd-5" target="SvSKkEP0Ot1hwkH4o2vd-7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="SvSKkEP0Ot1hwkH4o2vd-5" value="TransactionInterceptor.invoke()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="370" width="200" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="SvSKkEP0Ot1hwkH4o2vd-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SvSKkEP0Ot1hwkH4o2vd-7" target="SvSKkEP0Ot1hwkH4o2vd-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="605" y="490"/>
+              <mxPoint x="190" y="490"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SvSKkEP0Ot1hwkH4o2vd-16" value="&lt;span style=&quot;white-space: normal ; background-color: rgb(248 , 249 , 250)&quot;&gt;创建事务&lt;/span&gt;" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="SvSKkEP0Ot1hwkH4o2vd-13">
+          <mxGeometry x="0.5154" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SvSKkEP0Ot1hwkH4o2vd-7" value="TransactionAspectSupport.invokeWithinTransaction()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="380" width="330" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="SvSKkEP0Ot1hwkH4o2vd-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SvSKkEP0Ot1hwkH4o2vd-9" target="SvSKkEP0Ot1hwkH4o2vd-10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="SvSKkEP0Ot1hwkH4o2vd-9" value="createTransactionIfNecessary()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="582.5" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="SvSKkEP0Ot1hwkH4o2vd-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SvSKkEP0Ot1hwkH4o2vd-10" target="SvSKkEP0Ot1hwkH4o2vd-11">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="SvSKkEP0Ot1hwkH4o2vd-10" value="retVal = invocation.proceedWithInvocation()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="710" width="200" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="SvSKkEP0Ot1hwkH4o2vd-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SvSKkEP0Ot1hwkH4o2vd-11" target="SvSKkEP0Ot1hwkH4o2vd-12">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="SvSKkEP0Ot1hwkH4o2vd-11" value="completeTransactionAfterThrowing()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="830" width="210" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="SvSKkEP0Ot1hwkH4o2vd-12" value="commitTransactionAfterReturning()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="960" width="190" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
