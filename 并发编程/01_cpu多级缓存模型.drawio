@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-12T03:24:49.374Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="IoIsgJB9Ead-rTi3r5Om" version="12.2.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-12T03:25:28.319Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="wdCFJcEadt3LbhDcmjbo" version="12.2.3" type="github" pages="1">
   <diagram id="Lr2feN0olOUyddN0Xb5X" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         <mxCell id="xTGNvunOyGcny72eFTD3-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xTGNvunOyGcny72eFTD3-12" target="xTGNvunOyGcny72eFTD3-3">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="xTGNvunOyGcny72eFTD3-12" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xTGNvunOyGcny72eFTD3-12" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="100" y="280" width="140" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="xTGNvunOyGcny72eFTD3-13" value="CPU缓存&lt;br&gt;L1&lt;br&gt;L2&lt;br&gt;L3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -61,11 +61,8 @@
         <mxCell id="xTGNvunOyGcny72eFTD3-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xTGNvunOyGcny72eFTD3-41" target="xTGNvunOyGcny72eFTD3-38">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="xTGNvunOyGcny72eFTD3-41" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xTGNvunOyGcny72eFTD3-41" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="425" y="280" width="140" height="70" as="geometry"/>
-        </mxCell>
-        <mxCell id="xTGNvunOyGcny72eFTD3-42" value="CPU缓存&lt;br&gt;L1&lt;br&gt;L2&lt;br&gt;L3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="420" y="285" width="150" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="xTGNvunOyGcny72eFTD3-43" value="2：CPU都从CPU缓存读取" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="385" y="230" width="80" height="30" as="geometry"/>
@@ -90,6 +87,9 @@
             <mxPoint x="540" y="350" as="sourcePoint"/>
             <mxPoint x="540.0799999999999" y="487" as="targetPoint"/>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="xTGNvunOyGcny72eFTD3-49" value="CPU缓存&lt;br&gt;L1&lt;br&gt;L2&lt;br&gt;L3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="285" width="150" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
