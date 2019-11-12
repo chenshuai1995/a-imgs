@@ -1,1 +1,97 @@
-<mxfile host="www.draw.io" modified="2019-11-12T03:16:15.836Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" version="12.2.3" etag="MGYRF0EHbo6bBtL4bQPf" type="github"><diagram id="Lr2feN0olOUyddN0Xb5X">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-11-12T03:24:49.374Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="IoIsgJB9Ead-rTi3r5Om" version="12.2.3" type="github" pages="1">
+  <diagram id="Lr2feN0olOUyddN0Xb5X" name="第 1 页">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="xTGNvunOyGcny72eFTD3-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xTGNvunOyGcny72eFTD3-3" target="xTGNvunOyGcny72eFTD3-12">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xTGNvunOyGcny72eFTD3-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="140" width="140" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="xTGNvunOyGcny72eFTD3-4" value="CPU&lt;br&gt;线程代码的指令" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="135" y="160" width="70" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="xTGNvunOyGcny72eFTD3-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xTGNvunOyGcny72eFTD3-12" target="xTGNvunOyGcny72eFTD3-3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xTGNvunOyGcny72eFTD3-12" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="280" width="140" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="xTGNvunOyGcny72eFTD3-13" value="CPU缓存&lt;br&gt;L1&lt;br&gt;L2&lt;br&gt;L3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="95" y="285" width="150" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xTGNvunOyGcny72eFTD3-23" value="主内存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="143" y="490" width="540" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="xTGNvunOyGcny72eFTD3-27" value="2：CPU都从CPU缓存读取" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="230" width="80" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="xTGNvunOyGcny72eFTD3-32" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.048;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xTGNvunOyGcny72eFTD3-23" target="xTGNvunOyGcny72eFTD3-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="650" as="sourcePoint"/>
+            <mxPoint x="80" y="600" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xTGNvunOyGcny72eFTD3-33" value="" style="endArrow=classic;html=1;entryX=0.152;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="222" y="353" as="sourcePoint"/>
+            <mxPoint x="222.07999999999993" y="490" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xTGNvunOyGcny72eFTD3-34" value="1：数据先从主内存读取到CPU缓存中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="35" y="420" width="130" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="xTGNvunOyGcny72eFTD3-35" value="3：CPU计算后，写入CPU缓存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="225" width="100" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="xTGNvunOyGcny72eFTD3-36" value="4：刷入主内存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="235" y="407.5" width="90" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="xTGNvunOyGcny72eFTD3-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xTGNvunOyGcny72eFTD3-38" target="xTGNvunOyGcny72eFTD3-41">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xTGNvunOyGcny72eFTD3-38" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="140" width="140" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="xTGNvunOyGcny72eFTD3-39" value="CPU&lt;br&gt;线程代码的指令" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="160" width="70" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="xTGNvunOyGcny72eFTD3-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xTGNvunOyGcny72eFTD3-41" target="xTGNvunOyGcny72eFTD3-38">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xTGNvunOyGcny72eFTD3-41" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="280" width="140" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="xTGNvunOyGcny72eFTD3-42" value="CPU缓存&lt;br&gt;L1&lt;br&gt;L2&lt;br&gt;L3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="285" width="150" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xTGNvunOyGcny72eFTD3-43" value="2：CPU都从CPU缓存读取" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="385" y="230" width="80" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="xTGNvunOyGcny72eFTD3-44" value="1：数据先从主内存读取到CPU缓存中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="420" width="130" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="xTGNvunOyGcny72eFTD3-45" value="3：CPU计算后，写入CPU缓存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="555" y="225" width="100" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="xTGNvunOyGcny72eFTD3-46" value="4：刷入主内存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="407.5" width="90" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="xTGNvunOyGcny72eFTD3-47" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.048;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="489.4200000000001" y="487.5" as="sourcePoint"/>
+            <mxPoint x="490.5" y="347.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xTGNvunOyGcny72eFTD3-48" value="" style="endArrow=classic;html=1;entryX=0.152;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="350" as="sourcePoint"/>
+            <mxPoint x="540.0799999999999" y="487" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
