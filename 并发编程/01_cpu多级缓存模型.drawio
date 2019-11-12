@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-12T03:25:28.319Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="wdCFJcEadt3LbhDcmjbo" version="12.2.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-12T03:26:18.004Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="ArsmmVDOW5OrueYfx_yK" version="12.2.3" type="github" pages="1">
   <diagram id="Lr2feN0olOUyddN0Xb5X" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -90,6 +90,9 @@
         </mxCell>
         <mxCell id="xTGNvunOyGcny72eFTD3-49" value="CPU缓存&lt;br&gt;L1&lt;br&gt;L2&lt;br&gt;L3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="420" y="285" width="150" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xTGNvunOyGcny72eFTD3-50" value="注意：CPU速度极快，是不会直接读取主内存的" style="text;html=1;strokeColor=#A50040;fillColor=#d80073;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="640" y="70" width="137" height="50" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
