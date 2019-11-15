@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-15T03:04:53.522Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="hQmgSax5rJFXgsLNwmw4" version="12.2.6" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-15T03:05:37.751Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="FIYPXhTYS0vHSLsrVIqZ" version="12.2.6" type="github" pages="1">
   <diagram id="sF-UChHGXcfff-Z3Ch60" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,16 +22,16 @@
         <mxCell id="EjYxkgxHrnVKzBjctb8L-5" value="state = 0 -&amp;gt; 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="350" y="330" width="83" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="EjYxkgxHrnVKzBjctb8L-6" value="双向链表节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EjYxkgxHrnVKzBjctb8L-6" value="双向链表节点" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="447" y="330" width="60" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="EjYxkgxHrnVKzBjctb8L-7" value="双向链表节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EjYxkgxHrnVKzBjctb8L-7" value="双向链表节点" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="507" y="330" width="60" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="EjYxkgxHrnVKzBjctb8L-8" value="双向链表节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EjYxkgxHrnVKzBjctb8L-8" value="双向链表节点" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="567" y="330" width="60" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="EjYxkgxHrnVKzBjctb8L-9" value="双向链表节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EjYxkgxHrnVKzBjctb8L-9" value="双向链表节点" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="627" y="330" width="60" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="EjYxkgxHrnVKzBjctb8L-11" value="当前加锁线程 = null -&amp;gt; 线程A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -93,6 +93,9 @@
         </mxCell>
         <mxCell id="EjYxkgxHrnVKzBjctb8L-13" value="线程B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="398" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="EjYxkgxHrnVKzBjctb8L-28" value="队列" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="547" y="310" width="40" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
