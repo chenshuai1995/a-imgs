@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-25T03:58:21.872Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="3xi--KU21B4dPmmKK7j1" version="12.2.9" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-25T04:16:44.024Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="HaFB1HSG7GcZ-9EbJdxM" version="12.2.9" type="github" pages="1">
   <diagram id="1mVX_7mcW8gunhQvVgDO" name="第 1 页">
     <mxGraphModel dx="1422" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="MR53GJpDOVaV-Gg2l7jO-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="690" y="245" width="105" height="120" as="geometry"/>
         </mxCell>
-        <mxCell id="MR53GJpDOVaV-Gg2l7jO-2" value="线程" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="MR53GJpDOVaV-Gg2l7jO-2" value="线程&lt;br&gt;start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="700" y="275" width="40" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="MR53GJpDOVaV-Gg2l7jO-3" value="线程" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
