@@ -1,16 +1,19 @@
-<mxfile host="www.draw.io" modified="2019-12-13T10:10:23.775Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="pEFpUEmTpVM3YsThGZwC" version="12.4.1" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-13T10:27:54.396Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="oEVTeb9Y9atZCr9GS73q" version="12.4.1" type="github" pages="1">
   <diagram id="0wpR_Zg7rgJ2AMjmzWhl" name="第 1 页">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
         <mxCell id="AABdKVAQ4M9HiVD30GPb-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AABdKVAQ4M9HiVD30GPb-1" target="AABdKVAQ4M9HiVD30GPb-3">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="AABdKVAQ4M9HiVD30GPb-1" value="Parent线程组&lt;br&gt;EventLoopGroup&lt;br&gt;(CPU核 * 2)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-1" value="Parent线程组&lt;br&gt;EventLoopGroup&lt;br&gt;(CPU核 * 2)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="580" y="70" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="AABdKVAQ4M9HiVD30GPb-2" value="Child线程组&lt;br&gt;EventLoopGroup&lt;br&gt;(CPU核 * 2)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AABdKVAQ4M9HiVD30GPb-2" target="AABdKVAQ4M9HiVD30GPb-16">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-2" value="Child线程组&lt;br&gt;EventLoopGroup&lt;br&gt;(CPU核 * 2)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="670" y="290" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="AABdKVAQ4M9HiVD30GPb-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AABdKVAQ4M9HiVD30GPb-3" target="AABdKVAQ4M9HiVD30GPb-5">
@@ -19,6 +22,22 @@
         <mxCell id="AABdKVAQ4M9HiVD30GPb-7" value="无限循环select" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="AABdKVAQ4M9HiVD30GPb-6">
           <mxGeometry x="0.2" y="-1" relative="1" as="geometry">
             <mxPoint x="16" y="1" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AABdKVAQ4M9HiVD30GPb-3" target="AABdKVAQ4M9HiVD30GPb-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="250"/>
+              <mxPoint x="420" y="250"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AABdKVAQ4M9HiVD30GPb-3" target="AABdKVAQ4M9HiVD30GPb-8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-28" value="对客户端连接&lt;br&gt;accept()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="AABdKVAQ4M9HiVD30GPb-27">
+          <mxGeometry x="0.2873" relative="1" as="geometry">
+            <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="AABdKVAQ4M9HiVD30GPb-3" value="线程&lt;br&gt;NioEventLoop" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -51,16 +70,219 @@
         <mxCell id="AABdKVAQ4M9HiVD30GPb-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AABdKVAQ4M9HiVD30GPb-8" target="AABdKVAQ4M9HiVD30GPb-5">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="AABdKVAQ4M9HiVD30GPb-15" value="注册上去" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="AABdKVAQ4M9HiVD30GPb-14">
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-15" value="注册" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="AABdKVAQ4M9HiVD30GPb-14">
           <mxGeometry x="-0.1815" y="3" relative="1" as="geometry">
             <mxPoint x="21" as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AABdKVAQ4M9HiVD30GPb-8" value="NioServerSocketChannel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-8" value="NioServerSocketChannel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="60" y="152.5" width="150" height="65" as="geometry"/>
         </mxCell>
         <mxCell id="AABdKVAQ4M9HiVD30GPb-11" value="网络端口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry y="40" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AABdKVAQ4M9HiVD30GPb-16" target="AABdKVAQ4M9HiVD30GPb-18">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-20" value="监听请求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="AABdKVAQ4M9HiVD30GPb-19">
+          <mxGeometry x="-0.1287" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="AABdKVAQ4M9HiVD30GPb-16" target="AABdKVAQ4M9HiVD30GPb-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="703" y="380"/>
+              <mxPoint x="640" y="380"/>
+              <mxPoint x="640" y="305"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-30" value="发送响应" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="AABdKVAQ4M9HiVD30GPb-29">
+          <mxGeometry x="0.2075" y="2" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-16" value="线程&lt;br&gt;NioEventLoop" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="675" y="400" width="110" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-18" value="Selector&lt;br&gt;多路复用轮询组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="385" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AABdKVAQ4M9HiVD30GPb-22" target="AABdKVAQ4M9HiVD30GPb-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="415"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-25" value="注册" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="AABdKVAQ4M9HiVD30GPb-24">
+          <mxGeometry x="-0.28" y="1" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AABdKVAQ4M9HiVD30GPb-22" target="AABdKVAQ4M9HiVD30GPb-45">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-49" value="发送响应" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="AABdKVAQ4M9HiVD30GPb-48">
+          <mxGeometry x="0.2412" y="1" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-22" value="NioSocketChannel&lt;br&gt;客户端连接" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="360" y="290" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AABdKVAQ4M9HiVD30GPb-31" target="AABdKVAQ4M9HiVD30GPb-32">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-31" value="Unsafe&lt;br&gt;网络通信组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="335" width="80" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AABdKVAQ4M9HiVD30GPb-32" target="AABdKVAQ4M9HiVD30GPb-34">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-32" value="RecvByteBufAllocator&lt;br&gt;动态缓冲分配组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="430" width="120" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AABdKVAQ4M9HiVD30GPb-34" target="AABdKVAQ4M9HiVD30GPb-36">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-34" value="请求数据&lt;br&gt;ByteBuf" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="530" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AABdKVAQ4M9HiVD30GPb-36" target="AABdKVAQ4M9HiVD30GPb-38">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-36" value="Handler Pipline&lt;br&gt;系统处理逻辑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="515" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AABdKVAQ4M9HiVD30GPb-38" target="AABdKVAQ4M9HiVD30GPb-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="545"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-38" value="响应数据&lt;br&gt;ByteBuf" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="530" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AABdKVAQ4M9HiVD30GPb-40" target="AABdKVAQ4M9HiVD30GPb-16">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AABdKVAQ4M9HiVD30GPb-40" target="AABdKVAQ4M9HiVD30GPb-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="753" y="610"/>
+              <mxPoint x="260" y="610"/>
+              <mxPoint x="260" y="350"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-44" value="返回响应数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="AABdKVAQ4M9HiVD30GPb-43">
+          <mxGeometry x="-0.0632" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-40" value="响应缓冲队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="685" y="465" width="90" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AABdKVAQ4M9HiVD30GPb-45" target="AABdKVAQ4M9HiVD30GPb-11">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-47" value="connect&lt;br&gt;建立网络连接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="AABdKVAQ4M9HiVD30GPb-46">
+          <mxGeometry x="-0.1263" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="AABdKVAQ4M9HiVD30GPb-45" target="AABdKVAQ4M9HiVD30GPb-22">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-51" value="发送请求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="AABdKVAQ4M9HiVD30GPb-50">
+          <mxGeometry x="-0.3667" y="3" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-45" value="SocketChannel&lt;br&gt;客户端连接" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry y="290" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AABdKVAQ4M9HiVD30GPb-52" target="AABdKVAQ4M9HiVD30GPb-45">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-56" value="关注OP_CONNECT&lt;br&gt;关注OP_READ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="AABdKVAQ4M9HiVD30GPb-55">
+          <mxGeometry x="0.1667" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AABdKVAQ4M9HiVD30GPb-52" target="AABdKVAQ4M9HiVD30GPb-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-80" y="610" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="-40" y="480"/>
+              <mxPoint x="-40" y="585"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-63" value="读取响应数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="AABdKVAQ4M9HiVD30GPb-61">
+          <mxGeometry x="-0.1474" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-52" value="Selector&lt;br&gt;多路复用轮询组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="450" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AABdKVAQ4M9HiVD30GPb-57" target="AABdKVAQ4M9HiVD30GPb-52">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AABdKVAQ4M9HiVD30GPb-57" target="AABdKVAQ4M9HiVD30GPb-64">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="AABdKVAQ4M9HiVD30GPb-57" target="AABdKVAQ4M9HiVD30GPb-68">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-70" value="处理响应" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="AABdKVAQ4M9HiVD30GPb-69">
+          <mxGeometry x="0.2805" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AABdKVAQ4M9HiVD30GPb-57" target="AABdKVAQ4M9HiVD30GPb-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-100" y="593"/>
+              <mxPoint x="-100" y="320"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-72" value="finishConnect&lt;br&gt;完成连接的建立" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="AABdKVAQ4M9HiVD30GPb-71">
+          <mxGeometry x="-0.0781" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-57" value="线程&lt;br&gt;NioEventLoop" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5" y="570" width="110" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AABdKVAQ4M9HiVD30GPb-58" target="AABdKVAQ4M9HiVD30GPb-57">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-58" value="线程组&lt;br&gt;EventLoopGroup&lt;br&gt;(CPU核 * 2)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry y="651" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="AABdKVAQ4M9HiVD30GPb-64" target="AABdKVAQ4M9HiVD30GPb-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="185" y="335"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-67" value="发送请求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="AABdKVAQ4M9HiVD30GPb-66">
+          <mxGeometry x="-0.0857" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-64" value="请求缓冲队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="515" width="110" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AABdKVAQ4M9HiVD30GPb-68" value="Handler Pipline&lt;br&gt;系统处理逻辑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="651" width="120" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
