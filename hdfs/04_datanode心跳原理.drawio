@@ -1,1 +1,115 @@
-<mxfile host="www.draw.io" modified="2020-01-07T07:06:18.629Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" version="12.4.9" etag="kX9xrjUodxVkxKteggyZ" type="github"><diagram id="aWCTTcLlyL8U0ylBuCDs">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-01-07T07:14:47.976Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="WkH--V8PHtc6QLA0Wsfw" version="12.4.9" type="github">
+  <diagram id="aWCTTcLlyL8U0ylBuCDs" name="第 1 页">
+    <mxGraphModel dx="1422" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="vIRnpeh7JYYExMLSduEu-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vIRnpeh7JYYExMLSduEu-1" target="vIRnpeh7JYYExMLSduEu-2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="vIRnpeh7JYYExMLSduEu-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vIRnpeh7JYYExMLSduEu-1" target="vIRnpeh7JYYExMLSduEu-3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="vIRnpeh7JYYExMLSduEu-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vIRnpeh7JYYExMLSduEu-1" target="vIRnpeh7JYYExMLSduEu-6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="vIRnpeh7JYYExMLSduEu-1" value="datanode" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="100" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="vIRnpeh7JYYExMLSduEu-2" value="更新BPServiceActor&lt;br&gt;对应的namenode的状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="60" width="140" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="vIRnpeh7JYYExMLSduEu-3" value="执行namenode给自己&lt;br&gt;下发的任务&lt;br&gt;DatanodeCommand" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="140" width="140" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="vIRnpeh7JYYExMLSduEu-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vIRnpeh7JYYExMLSduEu-6" target="vIRnpeh7JYYExMLSduEu-11">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="vIRnpeh7JYYExMLSduEu-6" value="NameNodeRpcServer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="100" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="vIRnpeh7JYYExMLSduEu-8" value="每隔3秒&lt;br&gt;sendHearbeat()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="100" width="110" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="vIRnpeh7JYYExMLSduEu-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vIRnpeh7JYYExMLSduEu-11" target="vIRnpeh7JYYExMLSduEu-12">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="vIRnpeh7JYYExMLSduEu-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="vIRnpeh7JYYExMLSduEu-11" target="vIRnpeh7JYYExMLSduEu-1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="vIRnpeh7JYYExMLSduEu-11" value="FSNamesysten" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="210" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="vIRnpeh7JYYExMLSduEu-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vIRnpeh7JYYExMLSduEu-12" target="vIRnpeh7JYYExMLSduEu-14">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="vIRnpeh7JYYExMLSduEu-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vIRnpeh7JYYExMLSduEu-12" target="vIRnpeh7JYYExMLSduEu-13">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="vIRnpeh7JYYExMLSduEu-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="vIRnpeh7JYYExMLSduEu-12" target="vIRnpeh7JYYExMLSduEu-30">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="vIRnpeh7JYYExMLSduEu-12" value="DatanodeManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="300" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="vIRnpeh7JYYExMLSduEu-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vIRnpeh7JYYExMLSduEu-13" target="vIRnpeh7JYYExMLSduEu-16">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="vIRnpeh7JYYExMLSduEu-13" value="HeartbeatManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="400" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="vIRnpeh7JYYExMLSduEu-14" value="判断发送心跳的datanode&lt;br&gt;是否需要执行任务&lt;br&gt;Datanodecommand[]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="300" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="vIRnpeh7JYYExMLSduEu-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vIRnpeh7JYYExMLSduEu-16" target="vIRnpeh7JYYExMLSduEu-19">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="vIRnpeh7JYYExMLSduEu-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vIRnpeh7JYYExMLSduEu-16" target="vIRnpeh7JYYExMLSduEu-18">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="vIRnpeh7JYYExMLSduEu-16" value="DatanodeDescriptor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="400" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="vIRnpeh7JYYExMLSduEu-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vIRnpeh7JYYExMLSduEu-18" target="vIRnpeh7JYYExMLSduEu-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="30" y="550"/>
+              <mxPoint x="30" y="330"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIRnpeh7JYYExMLSduEu-24" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="vIRnpeh7JYYExMLSduEu-23">
+          <mxGeometry x="-0.3333" y="4" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIRnpeh7JYYExMLSduEu-18" value="是否宕机" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="510" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="vIRnpeh7JYYExMLSduEu-19" value="处理心跳&lt;br&gt;1、更新磁盘使用数据&lt;br&gt;2、更新最近一次心跳的时间" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="510" y="400" width="170" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="vIRnpeh7JYYExMLSduEu-22" value="判断如果一个datanode&lt;br&gt;超过10分钟没有发送心跳，&lt;br&gt;认为宕机" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="470" width="150" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="vIRnpeh7JYYExMLSduEu-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="vIRnpeh7JYYExMLSduEu-13" target="vIRnpeh7JYYExMLSduEu-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="480"/>
+              <mxPoint x="180" y="480"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIRnpeh7JYYExMLSduEu-26" value="每隔30秒执行一次&lt;br&gt;心跳检查" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="480" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="vIRnpeh7JYYExMLSduEu-30" value="将datanode&lt;br&gt;从内存中移除" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="230" width="80" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="vIRnpeh7JYYExMLSduEu-34" value="返回HeartbeatResponse&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1、DatanodeCommand[]&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2、当前namenode的状态：active还是standby&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="190" width="260" height="40" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
