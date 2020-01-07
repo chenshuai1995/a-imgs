@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-07T07:00:52.089Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="xn9rWcZcDcX7-hXyYFtf" version="12.4.9" type="github">
+<mxfile host="www.draw.io" modified="2020-01-07T07:01:54.683Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="pHv-EBO7KIQXRe73z_Uw" version="12.4.9" type="github">
   <diagram id="hpFnO6dxfgIIIrYWmUpC" name="第 1 页">
     <mxGraphModel dx="1422" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -49,7 +49,7 @@
         <mxCell id="Xnnz-QXalvESyS4H204h-10" value="创建一个&lt;br&gt;DatanodeDescriptor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="75" y="530" width="210" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="Xnnz-QXalvESyS4H204h-11" value="注册datanode&lt;br&gt;放入内存&lt;br&gt;map数据结构中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Xnnz-QXalvESyS4H204h-11" value="注册datanode&lt;br&gt;放入内存&lt;br&gt;map数据结构中" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="40" y="630" width="130" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="Xnnz-QXalvESyS4H204h-12" value="交给&lt;br&gt;HeartbeatManager&lt;br&gt;监管心跳" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
