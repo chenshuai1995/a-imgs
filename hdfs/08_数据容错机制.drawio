@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-20T01:51:33.980Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" etag="0z60UDeezefth2PJJQtY" version="12.5.5" type="github">
+<mxfile host="www.draw.io" modified="2020-01-20T01:53:02.422Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" etag="i16DSpmI9ZNVisceKTuZ" version="12.5.5" type="github">
   <diagram id="RKnLfBxMeZX2sV_eoKo-" name="第 1 页">
     <mxGraphModel dx="1221" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -103,7 +103,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZlRSLeDhTzatzAjQkpeC-47" value="启动时/每隔6小时&lt;br&gt;全量上报的block" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="ZlRSLeDhTzatzAjQkpeC-46">
+        <mxCell id="ZlRSLeDhTzatzAjQkpeC-47" value="启动时/每隔6小时&lt;br&gt;全量上报的block" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontColor=#FF0000;" vertex="1" connectable="0" parent="ZlRSLeDhTzatzAjQkpeC-46">
           <mxGeometry x="-0.678" y="1" relative="1" as="geometry">
             <mxPoint x="11" y="-38" as="offset"/>
           </mxGeometry>
@@ -149,7 +149,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZlRSLeDhTzatzAjQkpeC-45" value="每隔5分钟&lt;br&gt;上报增量变化的&lt;br&gt;block" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="ZlRSLeDhTzatzAjQkpeC-44">
+        <mxCell id="ZlRSLeDhTzatzAjQkpeC-45" value="每隔5分钟&lt;br&gt;上报增量变化的&lt;br&gt;block" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontColor=#FF0000;" vertex="1" connectable="0" parent="ZlRSLeDhTzatzAjQkpeC-44">
           <mxGeometry x="-0.1102" y="1" relative="1" as="geometry">
             <mxPoint as="offset"/>
           </mxGeometry>
@@ -165,7 +165,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZlRSLeDhTzatzAjQkpeC-50" value="扫描破损的&lt;br&gt;block" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="ZlRSLeDhTzatzAjQkpeC-49">
+        <mxCell id="ZlRSLeDhTzatzAjQkpeC-50" value="扫描破损的&lt;br&gt;block" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontColor=#FF0000;" vertex="1" connectable="0" parent="ZlRSLeDhTzatzAjQkpeC-49">
           <mxGeometry x="-0.2808" y="-1" relative="1" as="geometry">
             <mxPoint as="offset"/>
           </mxGeometry>
