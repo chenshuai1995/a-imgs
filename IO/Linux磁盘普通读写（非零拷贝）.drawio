@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-05T14:34:24.159Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" etag="KVOua5gQ8rOsSJkh_Jiv" version="12.6.5" type="github">
+<mxfile host="www.draw.io" modified="2020-02-05T14:41:26.859Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" etag="G82oHM6YPkpinIIInQWA" version="12.6.5" type="github">
   <diagram id="2ey8BvHn5M3EZ3FE7PC-" name="第 1 页">
     <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -66,7 +66,7 @@
         <mxCell id="zrxn8T6nQYytHkeBPJaD-15" value="3.&amp;nbsp;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;open sans&amp;#34; , &amp;#34;clear sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px ; text-align: left ; white-space: pre-wrap ; background-color: rgb(255 , 255 , 255)&quot;&gt;应用程序进程会再次将数据推回到内核中的套字节缓冲区&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="50" y="340" width="230" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="zrxn8T6nQYytHkeBPJaD-16" value="网卡" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zrxn8T6nQYytHkeBPJaD-16" value="NIC Buffer&lt;br&gt;网卡缓冲区" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="394.5" y="430" width="90" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="zrxn8T6nQYytHkeBPJaD-22" value="4.&amp;nbsp;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;open sans&amp;#34; , &amp;#34;clear sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px ; text-align: left ; white-space: pre-wrap ; background-color: rgb(255 , 255 , 255)&quot;&gt;最后将数据写入到网卡缓冲区&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
