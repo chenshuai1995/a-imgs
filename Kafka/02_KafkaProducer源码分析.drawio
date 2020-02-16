@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-16T06:27:38.403Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" etag="vLuz56GzJGxKjcFQihYV" version="12.7.0" type="github">
+<mxfile host="www.draw.io" modified="2020-02-16T06:29:41.704Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" etag="-cqG7gBjcTrFCHsFxz6k" version="12.7.0" type="github">
   <diagram id="h-DrrQ5Byr-y1sNQf9Lj" name="第 1 页">
     <mxGraphModel dx="1221" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,6 +23,14 @@
         </mxCell>
         <mxCell id="YYpQxiLuEJbkuMb4xX9M-2" value="send()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="140" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="YYpQxiLuEJbkuMb4xX9M-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YYpQxiLuEJbkuMb4xX9M-4" target="YYpQxiLuEJbkuMb4xX9M-25">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="YYpQxiLuEJbkuMb4xX9M-147" value="消息写入内存缓冲区" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="YYpQxiLuEJbkuMb4xX9M-146">
+          <mxGeometry x="-0.307" relative="1" as="geometry">
+            <mxPoint x="27.06" as="offset"/>
+          </mxGeometry>
         </mxCell>
         <mxCell id="YYpQxiLuEJbkuMb4xX9M-4" value="partitioner&lt;br&gt;将消息路由到分区" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="250" width="120" height="60" as="geometry"/>
