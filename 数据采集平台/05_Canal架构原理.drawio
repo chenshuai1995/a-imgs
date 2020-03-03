@@ -1,11 +1,166 @@
-<mxfile host="www.draw.io" modified="2020-03-03T07:46:58.787Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="FYAaEo2PUiYLiKrjrVm4" version="12.7.9" type="github">
+<mxfile host="www.draw.io" modified="2020-03-03T08:03:14.010Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="FxtAAMXaQB7vjvC3TJb-" version="12.7.9" type="github">
   <diagram id="Jsk6Z5G_U24yOyW6AACA" name="第 1 页">
-    <mxGraphModel dx="1422" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="bsfw96575_9BSj_uctaM-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="294" y="190" width="120" height="60" as="geometry" />
+          <mxGeometry x="200" y="220" width="520" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-2" value="Canal Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="230" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="270" width="485" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-4" value="Canal Instance" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="280" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bsfw96575_9BSj_uctaM-5" target="bsfw96575_9BSj_uctaM-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="bsfw96575_9BSj_uctaM-5" target="bsfw96575_9BSj_uctaM-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-18" value="伪装slave&lt;br&gt;发送dump请求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="bsfw96575_9BSj_uctaM-16">
+          <mxGeometry x="0.6026" y="2" relative="1" as="geometry">
+            <mxPoint y="28.28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-5" value="parse&lt;br&gt;binlog解析模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="310" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bsfw96575_9BSj_uctaM-6" target="bsfw96575_9BSj_uctaM-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bsfw96575_9BSj_uctaM-6" target="bsfw96575_9BSj_uctaM-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-6" value="sink&lt;br&gt;数据加工处理模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="310" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bsfw96575_9BSj_uctaM-7" target="bsfw96575_9BSj_uctaM-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-37" value="拉取binlog数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="bsfw96575_9BSj_uctaM-36">
+          <mxGeometry x="-0.1546" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="bsfw96575_9BSj_uctaM-7" target="bsfw96575_9BSj_uctaM-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-7" value="store&lt;br&gt;数据存储模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="310" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="bsfw96575_9BSj_uctaM-10" target="bsfw96575_9BSj_uctaM-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-44" value="存储元数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="bsfw96575_9BSj_uctaM-43">
+          <mxGeometry x="0.3133" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-10" value="meta&lt;br&gt;元数据维护模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="380" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bsfw96575_9BSj_uctaM-12" target="bsfw96575_9BSj_uctaM-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bsfw96575_9BSj_uctaM-12" target="bsfw96575_9BSj_uctaM-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-12" value="NettyServer&lt;br&gt;内嵌的网络服务器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="450" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bsfw96575_9BSj_uctaM-14" target="bsfw96575_9BSj_uctaM-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-17" value="推送&lt;br&gt;binlog" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="bsfw96575_9BSj_uctaM-15">
+          <mxGeometry x="-0.6112" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-14" value="MySQL&lt;br&gt;数据库实例" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="90" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bsfw96575_9BSj_uctaM-20" target="bsfw96575_9BSj_uctaM-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-20" value="Canal Deployer&lt;br&gt;部署模块&lt;br&gt;（独立的一个JVM进程）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="330" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bsfw96575_9BSj_uctaM-24" target="bsfw96575_9BSj_uctaM-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-26" value="启动&lt;br&gt;canal server" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="bsfw96575_9BSj_uctaM-25">
+          <mxGeometry x="-0.215" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-24" value="工程师" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="50" y="180" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="bsfw96575_9BSj_uctaM-27" target="bsfw96575_9BSj_uctaM-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-32" value="拉取配置" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="bsfw96575_9BSj_uctaM-28">
+          <mxGeometry x="-0.2028" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-27" value="MySQL数据库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="15" y="410" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="bsfw96575_9BSj_uctaM-29" target="bsfw96575_9BSj_uctaM-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-31" value="更新配置" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="bsfw96575_9BSj_uctaM-30">
+          <mxGeometry x="-0.5032" relative="1" as="geometry">
+            <mxPoint y="-7.43" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-29" value="Canal Admin&lt;br&gt;可视化管理工作台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-33" value="SessionHandler&lt;br&gt;请求处理器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="450" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-38" value="ZK集群" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="395" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="bsfw96575_9BSj_uctaM-45" target="bsfw96575_9BSj_uctaM-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-50" value="拉取binlog" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="bsfw96575_9BSj_uctaM-48">
+          <mxGeometry x="-0.2521" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bsfw96575_9BSj_uctaM-45" target="bsfw96575_9BSj_uctaM-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-56" value="推送binlog" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="bsfw96575_9BSj_uctaM-54">
+          <mxGeometry x="-0.2763" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-45" value="Canal Protocol&lt;br&gt;Canal Client和Canal Server通信协议" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="560" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-51" value="Canal Client&lt;br&gt;客户端订阅和拉取binlog" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="377.5" y="690" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="bsfw96575_9BSj_uctaM-52" target="bsfw96575_9BSj_uctaM-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-55" value="订阅binlog" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="bsfw96575_9BSj_uctaM-53">
+          <mxGeometry x="0.3317" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bsfw96575_9BSj_uctaM-52" value="NettyClient&lt;br&gt;网络通信客户端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="670" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
