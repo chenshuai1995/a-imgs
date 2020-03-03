@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-03T07:40:34.300Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="sTbeYT76L0bYp5964o6F" version="12.7.9" type="github">
+<mxfile host="www.draw.io" modified="2020-03-03T07:40:51.480Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="WtWVhgmpQulKoA4vbuEM" version="12.7.9" type="github">
   <diagram id="swQWp_eAwrN-cbaH2-tH" name="第 1 页">
     <mxGraphModel dx="1185" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -208,10 +208,10 @@
           <mxGeometry x="485" y="920" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="hyGS1tnHWZrOgosSYkBG-55" value="磁盘文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="467.5" y="1010" width="125" height="30" as="geometry" />
+          <mxGeometry x="467.5" y="1030" width="125" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hyGS1tnHWZrOgosSYkBG-58" value="queue&lt;br&gt;channel全局队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="315" y="1010" width="125" height="30" as="geometry" />
+          <mxGeometry x="315" y="1030" width="125" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
