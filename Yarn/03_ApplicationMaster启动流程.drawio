@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-04T11:52:33.486Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="STPWPyWmkOaEQR36kfxS" version="13.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-04T12:16:46.039Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="wr8Dciv-g-z2Mx9aFbcX" version="13.8.6" type="github">
   <diagram id="fdae64WWO7413-Mmr3JU" name="第 1 页">
     <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -74,6 +74,9 @@
           <mxGeometry x="-0.1554" y="29" relative="1" as="geometry">
             <mxPoint y="14" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Py9lNmwTSeVSUUbc_rpV-28" value="&lt;p style=&quot;line-height: 150%&quot;&gt;&lt;/p&gt;&lt;h1&gt;ApplicationMaster启动流程&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol style=&quot;line-height: 150%&quot;&gt;&lt;li&gt;用户向YARN ResourceManager提交应用程序，ResourceManager收到提交请求后，先向资源调度器申请用以启动ApplicationMaster的资源，待申请到资源后，再由ApplicationMasterLauncher与对应的NodeManager通信，从而启动应用程序的ApplicationMaster；&lt;br&gt;&lt;/li&gt;&lt;li&gt;ApplicationMaster启动完成后，ApplicationMasterLauncher会通过事件的形式，将刚刚启动的ApplicationMaster注册到AMLivelinessMonitor，以启动心跳监控；&lt;br&gt;&lt;/li&gt;&lt;li&gt;ApplicationMaster启动后，先向ApplicationMasterService注册，并将自己所在host、端口号等信息汇报给它；&lt;br&gt;&lt;/li&gt;&lt;li&gt;ApplicationMaster运行过程中，周期性地向ApplicationMasterService汇报“心跳”信息；&lt;br&gt;&lt;/li&gt;&lt;li&gt;ApplicationMasterService每次收到ApplicationMaster的心跳信息后，将通知AMLivelinessMonitor更新该应用程序的最近汇报心跳的时间；&lt;br&gt;&lt;/li&gt;&lt;li&gt;当应用程序运行完成后，ApplicationMaster向ApplicationMasterService发送请求，注销自己；&lt;br&gt;&lt;/li&gt;&lt;li&gt;ApplicationMasterService收到注销请求后，标注应用程序运行状态为完成，同时通知AMLivelinessMonitor移除对它的心跳监控；&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="182" y="490" width="487" height="360" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
