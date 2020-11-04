@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-04T10:09:50.015Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="DNOzUovL6EZfOKLz8dP6" version="13.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-04T10:16:54.121Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="nAxs6NSOxlub3sbxJ7G7" version="13.8.6" type="github">
   <diagram id="vOAcs--zpyQ7f2eAl6vN" name="第 1 页">
     <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -71,6 +71,9 @@
         </mxCell>
         <mxCell id="eh7jUYQlZPBpZxuqt2cB-18" value="ApplicationMaster&lt;br&gt;（RPC Client）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eh7jUYQlZPBpZxuqt2cB-21" value="&lt;h1&gt;ResourceManager主要完成一下几个功能：&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol style=&quot;line-height: 150%&quot;&gt;&lt;li&gt;&lt;span&gt;与客户端交互，处理来自客户端的请求；&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;启动和管理ApplicationMaster，并在它运行失败时重新启动它；&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;管理NodeManager，接收来自NodeManager的资源汇报信息，并向NodeManager下达管理指令(比如杀死Container等)；&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;资源管理与调度，接收来自ApplicationMaster的资源申请请求，并为之分配资源；&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;overflow=hidden;rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="177.5" y="530" width="505" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
