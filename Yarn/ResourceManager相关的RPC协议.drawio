@@ -1,1 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2020-11-04T09:55:33.255Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" version="13.8.6" etag="V82bvO2EGa6QEg_zw_1V" type="github"><diagram id="vOAcs--zpyQ7f2eAl6vN">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-04T10:04:50.747Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="twWGvv5-ECUN1mCnlxj0" version="13.8.6" type="github">
+  <diagram id="vOAcs--zpyQ7f2eAl6vN" name="第 1 页">
+    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eh7jUYQlZPBpZxuqt2cB-1" value="&lt;b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;ResourceManager&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="230" width="380" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="eh7jUYQlZPBpZxuqt2cB-2" value="ClientRMService&lt;br&gt;（RPC Server）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eh7jUYQlZPBpZxuqt2cB-3" value="ResourceTrackerService&lt;br&gt;（RPC Server）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="280" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eh7jUYQlZPBpZxuqt2cB-4" value="ApplicationMasterService&lt;br&gt;（RPC Server）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="280" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eh7jUYQlZPBpZxuqt2cB-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eh7jUYQlZPBpZxuqt2cB-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="eh7jUYQlZPBpZxuqt2cB-5" target="eh7jUYQlZPBpZxuqt2cB-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eh7jUYQlZPBpZxuqt2cB-8" value="ApplicationClientProtocol" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="eh7jUYQlZPBpZxuqt2cB-7">
+          <mxGeometry x="-0.4174" y="2" relative="1" as="geometry">
+            <mxPoint x="33" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eh7jUYQlZPBpZxuqt2cB-5" value="Application Client&lt;br&gt;（RPC Client）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eh7jUYQlZPBpZxuqt2cB-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eh7jUYQlZPBpZxuqt2cB-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="eh7jUYQlZPBpZxuqt2cB-10" target="eh7jUYQlZPBpZxuqt2cB-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eh7jUYQlZPBpZxuqt2cB-12" value="&lt;span style=&quot;font-weight: 700&quot;&gt;ApplicationClientProtocol&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eh7jUYQlZPBpZxuqt2cB-11">
+          <mxGeometry x="0.1307" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eh7jUYQlZPBpZxuqt2cB-10" value="Application Client&lt;br&gt;（RPC Client）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
