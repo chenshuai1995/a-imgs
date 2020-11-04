@@ -1,78 +1,78 @@
-<mxfile host="app.diagrams.net" modified="2020-11-04T10:16:54.121Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="nAxs6NSOxlub3sbxJ7G7" version="13.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-04T10:20:22.049Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="_ApGsEKCMhXqSKyeNvUF" version="13.8.6" type="github">
   <diagram id="vOAcs--zpyQ7f2eAl6vN" name="第 1 页">
     <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="eh7jUYQlZPBpZxuqt2cB-1" value="&lt;b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;ResourceManager&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eh7jUYQlZPBpZxuqt2cB-1" value="&lt;b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;ResourceManager&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="230" width="380" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="eh7jUYQlZPBpZxuqt2cB-2" value="ClientRMService&lt;br&gt;（RPC Server）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eh7jUYQlZPBpZxuqt2cB-2" value="ClientRMService&lt;br&gt;（RPC Server）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="365" y="360" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eh7jUYQlZPBpZxuqt2cB-3" value="ResourceTrackerService&lt;br&gt;（RPC Server）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eh7jUYQlZPBpZxuqt2cB-3" value="ResourceTrackerService&lt;br&gt;（RPC Server）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="280" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eh7jUYQlZPBpZxuqt2cB-4" value="ApplicationMasterService&lt;br&gt;（RPC Server）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eh7jUYQlZPBpZxuqt2cB-4" value="ApplicationMasterService&lt;br&gt;（RPC Server）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="445" y="280" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eh7jUYQlZPBpZxuqt2cB-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eh7jUYQlZPBpZxuqt2cB-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eh7jUYQlZPBpZxuqt2cB-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="eh7jUYQlZPBpZxuqt2cB-5" target="eh7jUYQlZPBpZxuqt2cB-2">
+        <mxCell id="eh7jUYQlZPBpZxuqt2cB-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="1" source="eh7jUYQlZPBpZxuqt2cB-5" target="eh7jUYQlZPBpZxuqt2cB-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eh7jUYQlZPBpZxuqt2cB-8" value="ApplicationClientProtocol" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="eh7jUYQlZPBpZxuqt2cB-7">
+        <mxCell id="eh7jUYQlZPBpZxuqt2cB-8" value="ApplicationClientProtocol" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" parent="eh7jUYQlZPBpZxuqt2cB-7" vertex="1" connectable="0">
           <mxGeometry x="-0.4174" y="2" relative="1" as="geometry">
             <mxPoint x="33" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eh7jUYQlZPBpZxuqt2cB-5" value="Application Client&lt;br&gt;（RPC Client）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eh7jUYQlZPBpZxuqt2cB-5" value="Application Client&lt;br&gt;（RPC Client）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="360" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eh7jUYQlZPBpZxuqt2cB-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eh7jUYQlZPBpZxuqt2cB-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="700" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eh7jUYQlZPBpZxuqt2cB-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="eh7jUYQlZPBpZxuqt2cB-10" target="eh7jUYQlZPBpZxuqt2cB-2">
+        <mxCell id="eh7jUYQlZPBpZxuqt2cB-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="1" source="eh7jUYQlZPBpZxuqt2cB-10" target="eh7jUYQlZPBpZxuqt2cB-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eh7jUYQlZPBpZxuqt2cB-12" value="&lt;span style=&quot;font-weight: 700&quot;&gt;ApplicationClientProtocol&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eh7jUYQlZPBpZxuqt2cB-11">
+        <mxCell id="eh7jUYQlZPBpZxuqt2cB-12" value="&lt;span style=&quot;font-weight: 700&quot;&gt;ApplicationClientProtocol&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="eh7jUYQlZPBpZxuqt2cB-11" vertex="1" connectable="0">
           <mxGeometry x="0.1307" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eh7jUYQlZPBpZxuqt2cB-10" value="Application Client&lt;br&gt;（RPC Client）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eh7jUYQlZPBpZxuqt2cB-10" value="Application Client&lt;br&gt;（RPC Client）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="710" y="360" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eh7jUYQlZPBpZxuqt2cB-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eh7jUYQlZPBpZxuqt2cB-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eh7jUYQlZPBpZxuqt2cB-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="eh7jUYQlZPBpZxuqt2cB-14" target="eh7jUYQlZPBpZxuqt2cB-3">
+        <mxCell id="eh7jUYQlZPBpZxuqt2cB-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="1" source="eh7jUYQlZPBpZxuqt2cB-14" target="eh7jUYQlZPBpZxuqt2cB-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eh7jUYQlZPBpZxuqt2cB-16" value="ResourceTrackerProtocol" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="eh7jUYQlZPBpZxuqt2cB-15">
+        <mxCell id="eh7jUYQlZPBpZxuqt2cB-16" value="ResourceTrackerProtocol" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" parent="eh7jUYQlZPBpZxuqt2cB-15" vertex="1" connectable="0">
           <mxGeometry x="-0.1714" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eh7jUYQlZPBpZxuqt2cB-14" value="NodeManager&lt;br&gt;（RPC Client）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eh7jUYQlZPBpZxuqt2cB-14" value="NodeManager&lt;br&gt;（RPC Client）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eh7jUYQlZPBpZxuqt2cB-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eh7jUYQlZPBpZxuqt2cB-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="450" y="65" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eh7jUYQlZPBpZxuqt2cB-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="eh7jUYQlZPBpZxuqt2cB-18" target="eh7jUYQlZPBpZxuqt2cB-4">
+        <mxCell id="eh7jUYQlZPBpZxuqt2cB-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="1" source="eh7jUYQlZPBpZxuqt2cB-18" target="eh7jUYQlZPBpZxuqt2cB-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eh7jUYQlZPBpZxuqt2cB-20" value="ApplicationMasterProtocol" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="eh7jUYQlZPBpZxuqt2cB-19">
+        <mxCell id="eh7jUYQlZPBpZxuqt2cB-20" value="ApplicationMasterProtocol" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" parent="eh7jUYQlZPBpZxuqt2cB-19" vertex="1" connectable="0">
           <mxGeometry x="-0.1448" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eh7jUYQlZPBpZxuqt2cB-18" value="ApplicationMaster&lt;br&gt;（RPC Client）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eh7jUYQlZPBpZxuqt2cB-18" value="ApplicationMaster&lt;br&gt;（RPC Client）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="75" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eh7jUYQlZPBpZxuqt2cB-21" value="&lt;h1&gt;ResourceManager主要完成一下几个功能：&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol style=&quot;line-height: 150%&quot;&gt;&lt;li&gt;&lt;span&gt;与客户端交互，处理来自客户端的请求；&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;启动和管理ApplicationMaster，并在它运行失败时重新启动它；&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;管理NodeManager，接收来自NodeManager的资源汇报信息，并向NodeManager下达管理指令(比如杀死Container等)；&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;资源管理与调度，接收来自ApplicationMaster的资源申请请求，并为之分配资源；&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;overflow=hidden;rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="eh7jUYQlZPBpZxuqt2cB-21" value="&lt;h1&gt;ResourceManager主要完成一下几个功能：&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol style=&quot;line-height: 150%&quot;&gt;&lt;li&gt;&lt;span&gt;与客户端交互，处理来自客户端的请求；&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;启动和管理ApplicationMaster，并在它运行失败时重新启动它；&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;管理NodeManager，接收来自NodeManager的资源汇报信息，并向NodeManager下达管理指令(比如杀死Container等)；&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;资源管理与调度，接收来自ApplicationMaster的资源申请请求，并为之分配资源；&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;overflow=hidden;rounded=0;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="177.5" y="530" width="505" height="180" as="geometry" />
         </mxCell>
       </root>
