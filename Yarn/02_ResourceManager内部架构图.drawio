@@ -1,1 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2020-11-04T10:18:56.681Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" version="13.8.6" etag="l6CMdwR2dZhDUl5UYr1_" type="github"><diagram id="0c3g9ZIKNbL2WOg2Fm-Q">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-04T10:56:58.706Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="MJXo1vZxFcoUAtMaEY9q" version="13.8.6" type="github">
+  <diagram id="0c3g9ZIKNbL2WOg2Fm-Q" name="第 1 页">
+    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KwX9ynKVNIvQm__pDRTp-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="80" width="660" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="KwX9ynKVNIvQm__pDRTp-2" value="ResourceTrackerService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="500" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KwX9ynKVNIvQm__pDRTp-4" value="NMLivelinessMonitor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="450" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KwX9ynKVNIvQm__pDRTp-5" value="NMLivelinessMonitor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="450" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
