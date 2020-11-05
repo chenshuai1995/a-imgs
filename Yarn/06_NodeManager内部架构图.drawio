@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-05T11:10:40.618Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="nPfYbg0LyjFNo2Geb9cK" version="13.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-05T11:12:24.544Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="RHaDIbb-YQE7jC7RztDO" version="13.8.6" type="github">
   <diagram id="GWpwSYDEWu8-K4qAvdks" name="第 1 页">
     <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -64,11 +64,11 @@
         <mxCell id="Tm5A38VgM0YzfF00-wjJ-22" value="ContainerExecutor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="511.75" y="670" width="240" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Tm5A38VgM0YzfF00-wjJ-24" value="ContainerManagerImpl&lt;br&gt;(RPC Server)" style="rounded=0;whiteSpace=wrap;html=1;direction=east;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="48" y="495" width="390" height="45" as="geometry" />
-        </mxCell>
         <mxCell id="Tm5A38VgM0YzfF00-wjJ-25" value="ResourceManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="205" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tm5A38VgM0YzfF00-wjJ-28" value="PRC&lt;br&gt;Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="325" width="47" height="390" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
