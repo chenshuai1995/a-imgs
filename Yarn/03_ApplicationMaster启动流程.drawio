@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-05T05:08:42.206Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="hhJvx5D7UoO1mEGkdUi4" version="13.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-05T06:27:46.644Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="Koq2X1B-_82U0MmOWLyO" version="13.8.6" type="github">
   <diagram id="fdae64WWO7413-Mmr3JU" name="第 1 页">
     <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         <mxCell id="Py9lNmwTSeVSUUbc_rpV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Py9lNmwTSeVSUUbc_rpV-5" target="Py9lNmwTSeVSUUbc_rpV-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Py9lNmwTSeVSUUbc_rpV-8" value="1、startContainer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Py9lNmwTSeVSUUbc_rpV-7">
+        <mxCell id="Py9lNmwTSeVSUUbc_rpV-8" value="1、startContainer:&lt;br&gt;AMLauncher#launch" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Py9lNmwTSeVSUUbc_rpV-7">
           <mxGeometry x="-0.0376" relative="1" as="geometry">
             <mxPoint y="-9" as="offset" />
           </mxGeometry>
