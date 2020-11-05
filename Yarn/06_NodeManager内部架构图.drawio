@@ -1,68 +1,74 @@
-<mxfile host="app.diagrams.net" modified="2020-11-05T10:23:31.175Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="v1W6bhuBWO_1wuM2rPgo" version="13.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-05T11:10:40.618Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="nPfYbg0LyjFNo2Geb9cK" version="13.8.6" type="github">
   <diagram id="GWpwSYDEWu8-K4qAvdks" name="第 1 页">
     <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Tm5A38VgM0YzfF00-wjJ-1" value="&lt;b&gt;NodeManager&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="140" width="610" height="590" as="geometry" />
+          <mxGeometry x="193" y="140" width="610" height="590" as="geometry" />
         </mxCell>
         <mxCell id="Tm5A38VgM0YzfF00-wjJ-17" value="NodeHealthCheckService&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="340" width="240" height="150" as="geometry" />
+          <mxGeometry x="513" y="340" width="240" height="150" as="geometry" />
         </mxCell>
         <mxCell id="Tm5A38VgM0YzfF00-wjJ-10" value="ContainerManager&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="280" width="240" height="440" as="geometry" />
+          <mxGeometry x="213" y="280" width="240" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="Tm5A38VgM0YzfF00-wjJ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tm5A38VgM0YzfF00-wjJ-2" target="Tm5A38VgM0YzfF00-wjJ-25">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Tm5A38VgM0YzfF00-wjJ-2" value="NodeStatusUpdater" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="210" width="240" height="50" as="geometry" />
+          <mxGeometry x="213" y="210" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Tm5A38VgM0YzfF00-wjJ-3" value="ContainersMonitor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="320" width="170" height="40" as="geometry" />
+          <mxGeometry x="273" y="320" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Tm5A38VgM0YzfF00-wjJ-4" value="ResourceLocalizationService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="380" width="170" height="40" as="geometry" />
+          <mxGeometry x="273" y="380" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Tm5A38VgM0YzfF00-wjJ-5" value="ContainersLauncher" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="440" width="170" height="40" as="geometry" />
+          <mxGeometry x="273" y="440" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Tm5A38VgM0YzfF00-wjJ-6" value="AuxServices" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="500" width="170" height="40" as="geometry" />
+          <mxGeometry x="273" y="500" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Tm5A38VgM0YzfF00-wjJ-7" value="LogHandler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="560" width="170" height="40" as="geometry" />
+          <mxGeometry x="273" y="560" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Tm5A38VgM0YzfF00-wjJ-8" value="ContainerEventDispatcher" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="620" width="170" height="40" as="geometry" />
+          <mxGeometry x="273" y="620" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Tm5A38VgM0YzfF00-wjJ-9" value="ApplicationEventDispatcher" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="680" width="170" height="40" as="geometry" />
+          <mxGeometry x="273" y="680" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Tm5A38VgM0YzfF00-wjJ-12" value="WebServer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="210" width="240" height="50" as="geometry" />
+          <mxGeometry x="513" y="210" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Tm5A38VgM0YzfF00-wjJ-13" value="DeletionService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="280" width="240" height="50" as="geometry" />
+          <mxGeometry x="513" y="280" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Tm5A38VgM0YzfF00-wjJ-14" value="LocalDirsHandlerService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="445" y="380" width="170" height="40" as="geometry" />
+          <mxGeometry x="548" y="380" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Tm5A38VgM0YzfF00-wjJ-15" value="NodeHealthScriptRunner" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="445" y="440" width="170" height="40" as="geometry" />
+          <mxGeometry x="548" y="440" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Tm5A38VgM0YzfF00-wjJ-19" value="Security&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="510" width="240" height="150" as="geometry" />
+          <mxGeometry x="513" y="510" width="240" height="150" as="geometry" />
         </mxCell>
         <mxCell id="Tm5A38VgM0YzfF00-wjJ-20" value="ApplicationACLsManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="437.5" y="550" width="185" height="40" as="geometry" />
+          <mxGeometry x="540.5" y="550" width="185" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Tm5A38VgM0YzfF00-wjJ-21" value="ContainerTokensSecretManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="437.5" y="610" width="182.5" height="40" as="geometry" />
+          <mxGeometry x="540.5" y="610" width="182.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Tm5A38VgM0YzfF00-wjJ-22" value="ContainerExecutor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="408.75" y="670" width="240" height="50" as="geometry" />
+          <mxGeometry x="511.75" y="670" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Tm5A38VgM0YzfF00-wjJ-24" value="ContainerManagerImpl&lt;br&gt;(RPC Server)" style="rounded=0;whiteSpace=wrap;html=1;direction=east;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="-55" y="495" width="390" height="45" as="geometry" />
+          <mxGeometry x="48" y="495" width="390" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Tm5A38VgM0YzfF00-wjJ-25" value="ResourceManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="205" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
