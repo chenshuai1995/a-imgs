@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-11-05T01:34:31.112Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="auFPE4O_PvC-nHZqrfD9" version="13.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-05T01:38:51.434Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="28HOwatkLaI_E8JUIeHY" version="13.8.6" type="github">
   <diagram id="WyRZzV4c3pceHVaaJ9lw" name="第 1 页">
     <mxGraphModel dx="865" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="JMuRE93zRrlReeFvT3NZ-1" value="&lt;b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;ResourceManager&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="270" width="660" height="310" as="geometry" />
+          <mxGeometry x="95" y="170" width="660" height="310" as="geometry" />
         </mxCell>
         <mxCell id="JMuRE93zRrlReeFvT3NZ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JMuRE93zRrlReeFvT3NZ-2" target="JMuRE93zRrlReeFvT3NZ-10">
           <mxGeometry relative="1" as="geometry" />
@@ -24,7 +24,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JMuRE93zRrlReeFvT3NZ-2" value="ApplicationMasterService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="290" width="170" height="60" as="geometry" />
+          <mxGeometry x="215" y="190" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JMuRE93zRrlReeFvT3NZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JMuRE93zRrlReeFvT3NZ-3" target="JMuRE93zRrlReeFvT3NZ-4">
           <mxGeometry relative="1" as="geometry" />
@@ -35,7 +35,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JMuRE93zRrlReeFvT3NZ-3" value="ResourceTrackerService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="290" width="170" height="60" as="geometry" />
+          <mxGeometry x="525" y="190" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JMuRE93zRrlReeFvT3NZ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JMuRE93zRrlReeFvT3NZ-4" target="JMuRE93zRrlReeFvT3NZ-5">
           <mxGeometry relative="1" as="geometry" />
@@ -46,7 +46,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JMuRE93zRrlReeFvT3NZ-4" value="RMNodeImpl" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="402.5" width="110" height="45" as="geometry" />
+          <mxGeometry x="555" y="302.5" width="110" height="45" as="geometry" />
         </mxCell>
         <mxCell id="JMuRE93zRrlReeFvT3NZ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="JMuRE93zRrlReeFvT3NZ-5" target="JMuRE93zRrlReeFvT3NZ-14">
           <mxGeometry relative="1" as="geometry" />
@@ -73,13 +73,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JMuRE93zRrlReeFvT3NZ-5" value="ResourceScheduler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="402.5" width="110" height="45" as="geometry" />
+          <mxGeometry x="335" y="302.5" width="110" height="45" as="geometry" />
         </mxCell>
         <mxCell id="JMuRE93zRrlReeFvT3NZ-10" value="RMAppAttemptImpl" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="402.5" width="110" height="45" as="geometry" />
+          <mxGeometry x="135" y="302.5" width="110" height="45" as="geometry" />
         </mxCell>
         <mxCell id="JMuRE93zRrlReeFvT3NZ-14" value="RMContainerImpl" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="480" width="110" height="45" as="geometry" />
+          <mxGeometry x="135" y="380" width="110" height="45" as="geometry" />
         </mxCell>
         <mxCell id="JMuRE93zRrlReeFvT3NZ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="JMuRE93zRrlReeFvT3NZ-20" target="JMuRE93zRrlReeFvT3NZ-2">
           <mxGeometry relative="1" as="geometry" />
@@ -90,7 +90,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JMuRE93zRrlReeFvT3NZ-20" value="ApplicationMaster" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="150" width="170" height="60" as="geometry" />
+          <mxGeometry x="215" y="50" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JMuRE93zRrlReeFvT3NZ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="JMuRE93zRrlReeFvT3NZ-25" target="JMuRE93zRrlReeFvT3NZ-3">
           <mxGeometry relative="1" as="geometry" />
@@ -101,7 +101,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JMuRE93zRrlReeFvT3NZ-25" value="NodeManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="150" width="170" height="60" as="geometry" />
+          <mxGeometry x="525" y="50" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JMuRE93zRrlReeFvT3NZ-28" value="&lt;h1&gt;Container分配与申请流程的具体步骤:&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol style=&quot;line-height: 150%&quot;&gt;&lt;li&gt;阶段一：ApplicationMaster汇报资源需求并领取已经分配到的资源&lt;br&gt;&lt;/li&gt;&lt;ol&gt;&lt;li&gt;ApplicationMaster通过RPC函数ApplicationMasterProtocol#allocate向ResourceManager汇报资源需求（由于该函数被周期性调用，通常称为“心跳”），包括新的资源需求描述、待释放的Container列表、请求加入黑名单的节点列表、请求移除黑名单列表等。&lt;br&gt;&lt;/li&gt;&lt;li&gt;ResourceManager中的ApplicationMasterService负责处理来自ApplicationMaster的请求，一旦收到该请求，会向RMAppAttemptImpl发送一个RMAppAttemptEventType.STATUS_UPDATE类型事件，而RMAppAttemptImpl收到该事件后，将更新应用程序执行进度和AMLivenessMonitor中记录的应用程序最近更新时间。&lt;br&gt;&lt;/li&gt;&lt;li&gt;ApplicationMasterService调用ResourceScheduler#allocate函数，将该ApplicationMaster资源需求汇报给ResourceScheduler。&lt;br&gt;&lt;/li&gt;&lt;li&gt;ResourceScheduler首先读取待释放Container列表，依次向对应的RMContainerImpl发送RMContainerEventType.RELEASED类型事件，以杀死正在运行的Container，然后将新的资源需求更新到对应的数据结构中，并返回已经为该应用程序分配的资源。&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;阶段二：NodeManager向ResourceManager汇报各个Container运行状态，如果ResourceManager发现它上面有空闲的资源，则进行一次资源分配，并将分配的资源保存到对应的应用程序数据结构中，等待下次ApplicationMaster发送心跳信息时获取（即阶段一）&lt;br&gt;&lt;/li&gt;&lt;ol&gt;&lt;li&gt;NodeManger通过RPC函数ResourceTracker#nodeHeartbeat向ResourceManager汇报各个Container运行状态。&lt;br&gt;&lt;/li&gt;&lt;li&gt;ResourceManager中的ResourceTrackerService负责处理来自NodeManager的请求，一旦收到该请求，会向RMNodeImpl发送一个RMNodeEventType.STATUS_UPDATE类型事件，而RMNodeImpl收到该事件后，将更新各个Container的运行状态，并进一步向ResourceScheduler发送一个SchedulerEventType.NODE_UPDATE类型事件。&lt;br&gt;&lt;/li&gt;&lt;li&gt;ResourceScheduler收到事件后，如果该节点上有可分配的空闲资源，则会将这些资源分配给各个应用程序，而分配后的资源仅是记录到对应的数据结构中，等待ApplicationMaster下次通过心跳机制来领取。&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="145" y="510" width="560" height="510" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
