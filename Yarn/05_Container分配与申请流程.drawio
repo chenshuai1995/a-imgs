@@ -1,1 +1,109 @@
-<mxfile host="app.diagrams.net" modified="2020-11-05T00:50:21.669Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" version="13.8.6" etag="ifp5BC9hep7ks2S_AbwD" type="github"><diagram id="WyRZzV4c3pceHVaaJ9lw">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-05T01:34:31.112Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="auFPE4O_PvC-nHZqrfD9" version="13.8.6" type="github">
+  <diagram id="WyRZzV4c3pceHVaaJ9lw" name="第 1 页">
+    <mxGraphModel dx="865" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JMuRE93zRrlReeFvT3NZ-1" value="&lt;b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;ResourceManager&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="270" width="660" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="JMuRE93zRrlReeFvT3NZ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JMuRE93zRrlReeFvT3NZ-2" target="JMuRE93zRrlReeFvT3NZ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JMuRE93zRrlReeFvT3NZ-13" value="STATUS_&lt;br&gt;UPDATE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JMuRE93zRrlReeFvT3NZ-11">
+          <mxGeometry x="-0.2153" relative="1" as="geometry">
+            <mxPoint x="-12.08" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JMuRE93zRrlReeFvT3NZ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="JMuRE93zRrlReeFvT3NZ-2" target="JMuRE93zRrlReeFvT3NZ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JMuRE93zRrlReeFvT3NZ-19" value="ResourceScheduler&lt;br&gt;#allocate" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JMuRE93zRrlReeFvT3NZ-12">
+          <mxGeometry x="-0.5167" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JMuRE93zRrlReeFvT3NZ-2" value="ApplicationMasterService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="290" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JMuRE93zRrlReeFvT3NZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JMuRE93zRrlReeFvT3NZ-3" target="JMuRE93zRrlReeFvT3NZ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JMuRE93zRrlReeFvT3NZ-7" value="STATUS_UPDATE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JMuRE93zRrlReeFvT3NZ-6">
+          <mxGeometry x="0.2027" relative="1" as="geometry">
+            <mxPoint y="-11.43" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JMuRE93zRrlReeFvT3NZ-3" value="ResourceTrackerService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="290" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JMuRE93zRrlReeFvT3NZ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JMuRE93zRrlReeFvT3NZ-4" target="JMuRE93zRrlReeFvT3NZ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JMuRE93zRrlReeFvT3NZ-9" value="NODE_&lt;br&gt;UPDATE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JMuRE93zRrlReeFvT3NZ-8">
+          <mxGeometry x="-0.192" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JMuRE93zRrlReeFvT3NZ-4" value="RMNodeImpl" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="402.5" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="JMuRE93zRrlReeFvT3NZ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="JMuRE93zRrlReeFvT3NZ-5" target="JMuRE93zRrlReeFvT3NZ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JMuRE93zRrlReeFvT3NZ-18" value="RELEASED" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JMuRE93zRrlReeFvT3NZ-15">
+          <mxGeometry x="0.1301" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JMuRE93zRrlReeFvT3NZ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="JMuRE93zRrlReeFvT3NZ-5" target="JMuRE93zRrlReeFvT3NZ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JMuRE93zRrlReeFvT3NZ-17" value="RELEASED" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JMuRE93zRrlReeFvT3NZ-16">
+          <mxGeometry x="0.0457" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JMuRE93zRrlReeFvT3NZ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="JMuRE93zRrlReeFvT3NZ-5" target="JMuRE93zRrlReeFvT3NZ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JMuRE93zRrlReeFvT3NZ-24" value="&lt;b&gt;allocated Containers&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JMuRE93zRrlReeFvT3NZ-23">
+          <mxGeometry x="0.2026" y="-1" relative="1" as="geometry">
+            <mxPoint x="6.5" y="10.829999999999998" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JMuRE93zRrlReeFvT3NZ-5" value="ResourceScheduler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="402.5" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="JMuRE93zRrlReeFvT3NZ-10" value="RMAppAttemptImpl" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="402.5" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="JMuRE93zRrlReeFvT3NZ-14" value="RMContainerImpl" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="480" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="JMuRE93zRrlReeFvT3NZ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="JMuRE93zRrlReeFvT3NZ-20" target="JMuRE93zRrlReeFvT3NZ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JMuRE93zRrlReeFvT3NZ-22" value="ApplicationMasterProtocol&lt;br&gt;#allocate" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JMuRE93zRrlReeFvT3NZ-21">
+          <mxGeometry x="-0.2292" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JMuRE93zRrlReeFvT3NZ-20" value="ApplicationMaster" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="150" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JMuRE93zRrlReeFvT3NZ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="JMuRE93zRrlReeFvT3NZ-25" target="JMuRE93zRrlReeFvT3NZ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JMuRE93zRrlReeFvT3NZ-27" value="ResourceTrackerProtocol&lt;br&gt;#nodeHeartbeat" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JMuRE93zRrlReeFvT3NZ-26">
+          <mxGeometry x="-0.2708" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JMuRE93zRrlReeFvT3NZ-25" value="NodeManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="150" width="170" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
