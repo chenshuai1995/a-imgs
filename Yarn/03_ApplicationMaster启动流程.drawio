@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2020-11-04T12:16:46.039Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="wr8Dciv-g-z2Mx9aFbcX" version="13.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-05T05:08:42.206Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="hhJvx5D7UoO1mEGkdUi4" version="13.8.6" type="github">
   <diagram id="fdae64WWO7413-Mmr3JU" name="第 1 页">
     <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Py9lNmwTSeVSUUbc_rpV-1" value="ApplicationManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Py9lNmwTSeVSUUbc_rpV-1" value="ApplicationMaster" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Py9lNmwTSeVSUUbc_rpV-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
