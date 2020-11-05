@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-05T01:58:01.848Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="l64LBTNfAPR4cv98HCcq" version="13.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-05T10:23:31.175Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="v1W6bhuBWO_1wuM2rPgo" version="13.8.6" type="github">
   <diagram id="GWpwSYDEWu8-K4qAvdks" name="第 1 页">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,9 +37,6 @@
         <mxCell id="Tm5A38VgM0YzfF00-wjJ-9" value="ApplicationEventDispatcher" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="680" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Tm5A38VgM0YzfF00-wjJ-11" value="RPC Server" style="rounded=0;whiteSpace=wrap;html=1;direction=north;" vertex="1" parent="1">
-          <mxGeometry x="120" y="320" width="40" height="390" as="geometry" />
-        </mxCell>
         <mxCell id="Tm5A38VgM0YzfF00-wjJ-12" value="WebServer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="210" width="240" height="50" as="geometry" />
         </mxCell>
@@ -63,6 +60,9 @@
         </mxCell>
         <mxCell id="Tm5A38VgM0YzfF00-wjJ-22" value="ContainerExecutor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="408.75" y="670" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Tm5A38VgM0YzfF00-wjJ-24" value="ContainerManagerImpl&lt;br&gt;(RPC Server)" style="rounded=0;whiteSpace=wrap;html=1;direction=east;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="-55" y="495" width="390" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
